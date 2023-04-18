@@ -1,0 +1,81 @@
+[
+    { 
+        "title": "Salad Nicoise",
+        "maker": "By Lina Sukowati",
+        "time": 9, 
+        "timeType": "Minutes",
+        "image": "/images/newly-added1.png",
+        "link": "/"
+    },  { 
+        "title": "Grilled Beef Steak",
+        "maker": "By Eka Nurwasilah",
+        "time": 26, 
+        "timeType": "Minutes",
+        "image": "/images/newly-added2.png",
+        "link": "/"
+    },
+    { 
+        "title": "Tiger Prawns Roasted",
+        "maker": "By Lina Sukowati",
+        "time": 9, 
+        "timeType": "Minutes",
+        "image": "/images/newly-added3.png",
+        "link": "/"
+    },
+    { 
+        "title": "Korean Soup",
+        "maker": "By Lina Sukowati",
+        "time": 45, 
+        "timeType": "Minutes",
+        "image": "/images/newly-added4.png",
+        "link": "/"
+    },
+    { 
+        "title": "Roast Aubergine",
+        "maker": "By Lina Sukowati",
+        "time": 1,
+        "timeType": "Hour",
+        "image": "/images/newly-added5.png",
+        "link": "/"
+    },
+    { 
+        "title": "Indian Mixed Rice",
+        "maker": "By Lina Sukowati",
+        "time": 26, 
+        "timeType": "Minutes",
+        "image": "/images/newly-added6.png",
+        "link": "/"
+    },
+    { 
+        "title": "Black Red Cake",
+        "maker": "By Nurjanah",
+        "time": 27,
+        "timeType": "Minutes", 
+        "image": "/images/newly-added7.png",
+        "link": "/"
+    },
+    { 
+        "title": "Fresh Spaghetti with Tuna",
+        "maker": "By Lina Sukowati",
+        "time": 45,
+        "timeType": "Minutes", 
+        "image": "/images/newly-added8.png",
+        "link": "/"
+    },
+    { 
+        "title": "Steak with fries",
+        "maker": "By Lina Sukowati",
+        "time": 1.5,
+        "timeType": "Hour", 
+        "image": "/images/newly-added2.png",
+        "link": "/"
+    },
+    { 
+        "title": "Paska",
+        "maker": "By Lina Sukowati",
+        "time": 2,
+        "timeType": "Hour", 
+        "image": "/images/newly-added7.png",
+        "link": "/"
+    }
+]

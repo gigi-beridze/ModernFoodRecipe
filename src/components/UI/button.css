@@ -1,0 +1,33 @@
+.btn {
+    display: inline-flex;
+    margin-left: 2px;
+}
+.btn button {
+    width: 140px;
+    height: 40px;
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: "Raleway", sans-serif;
+    background-color:  var(--light-red);
+    border: none;
+    cursor: pointer;
+    border: 1px solid var(--light-red);
+    transition: .3s ease-in-out;
+}
+.btn button:hover {
+    background-color: var(--medium-red);
+    border-color: var(--dark-red);
+}
+
+@media screen and (max-width: 1124px) {
+    .btn button:last-child {
+        margin-left: 0px;
+        margin-top: 6px;
+    }
+    .btn button {
+        width: 120px;
+    }
+}

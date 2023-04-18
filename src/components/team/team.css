@@ -1,0 +1,43 @@
+.team {
+    background-color: #eaeae8;
+}
+.team .title {
+    padding-top: 90px;
+}
+.team-persons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0 90px;
+    flex-wrap: wrap;
+}
+.team-person {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.team-person img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 50%;
+}
+.person-name {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px 0 5px;
+    font-family: "Raleway", sans-serif;
+}
+.person-role {
+    font-style: italic;
+    font-family: georgia, serif;
+    font-size: 12px;
+    color: #999;
+}
+@media screen and (max-width: 1024px) {
+    .team-person {
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,11 @@
+[
+    { 
+        "label": "Georgian Cuisine", 
+        "value": "option1" 
+    },
+    { 
+        "label": "Foreign Cuisine", 
+        "value": "option2" 
+    }
+
+]

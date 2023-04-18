@@ -1,0 +1,59 @@
+.blog .title span {
+    font-family: "ALK Rounded Nusx Med", sans-serif;
+}
+.blog .title {
+    margin-top: 50px;
+}
+.blogs {
+
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.blog-img {
+    width: 260px;
+}
+.blog-description {
+    width: 260px;
+    min-height: 70px;
+    color: var(--medium-dark);
+    font-weight: 700;
+    line-height: 1.5;
+    font-family: sans-serif;
+    margin: 10px 0px;
+    word-wrap: break-word;
+}
+.description {
+    height: 40px;
+    border-bottom: 2px solid #ddd;
+}
+.blog-type {
+    color: var(--light-red);
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.blog-date {
+    color: var(--lightest-grey);
+    padding-left: 40px;
+}
+.description::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 20px;
+    border-bottom: 2px solid var(--light-red);
+    transition: width .3s;
+}
+
+.description:hover::after {
+    width: 100%;
+    transition: width .3s;
+}

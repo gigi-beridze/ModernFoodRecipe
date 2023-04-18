@@ -1,0 +1,26 @@
+[
+    { 
+        "title": "food", 
+        "image": "/images/top-dishes1.png",
+        "link": "/"
+    },  { 
+        "title": "beverage", 
+        "image": "/images/top-dishes2.png",
+        "link": "/"
+    },
+    { 
+        "title": "dessert", 
+        "image": "/images/top-dishes3.png",
+        "link": "/"
+    },
+    { 
+        "title": "pudding", 
+        "image": "/images/top-dishes4.png",
+        "link": "/"
+    },
+    { 
+        "title": "drink", 
+        "image": "/images/top-dishes2.png",
+        "link": "/"
+    }
+]

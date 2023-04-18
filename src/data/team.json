@@ -1,0 +1,27 @@
+[
+    { 
+        "name": "roberta farina", 
+        "role": "Executive Editor",
+        "image": "/images/person1.png" 
+    },
+    { 
+        "name": "nia kurniasari", 
+        "role": "Internet Marketer",
+        "image": "/images/person2.png" 
+    },
+    { 
+        "name": "rina alexanderia", 
+        "role": "Publisher",
+        "image": "/images/person3.png" 
+    },
+    { 
+        "name": "siti julaiha", 
+        "role": "System Administrator",
+        "image": "/images/person4.png" 
+    },
+    { 
+        "name": "laila delova", 
+        "role": "Web Developerp",
+        "image": "/images/person5.png" 
+    }
+]

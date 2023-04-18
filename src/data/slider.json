@@ -1,0 +1,18 @@
+[
+    { 
+        "title": "Most Popular Homemade Recipes", 
+        "btn-title": "explore now",
+        "image": "/images/slide-1.png" 
+    },
+    { 
+        "title": "Our 10 Most Popular Recipes", 
+        "btn-title": "explore now",
+        "image": "/images/slide-2.png" 
+    },
+    { 
+        "title": "Best Review Recipe 2019", 
+        "btn-title": "read more",
+        "image": "/images/slide-3.png" 
+    }
+
+]

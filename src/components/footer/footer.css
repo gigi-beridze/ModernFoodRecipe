@@ -1,0 +1,132 @@
+.footer {
+    width: 100vw;
+    height: 530px;
+    background-image: url("/images/footer-bg.png");
+}
+.footer-section {
+    display: flex;
+    justify-content: center;
+}
+.footer-about {
+    width: 50%;
+    text-align: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 60px 70px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.footer-about h3,
+.footer-links h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 4px;
+    font-family: "Raleway", sans-serif;
+    color: var(--white);
+}
+.footer-about p {
+    font-family: georgia, serif;
+    font-size: 15px;
+    line-height: 1.8;
+    opacity: 0.8;
+    color: var(--white);
+    margin-top: 20px;
+    width: 300px;
+    display: inline-flex;
+}
+.footer-links {
+    padding: 60px 70px;
+    width: 50%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.footer-links h3 {
+    text-align: center;
+}
+.footer-links-ul {
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.footer-links-ul a:hover img {
+    padding-left: 4px;
+}
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+}
+.footer-nav a,
+.footer-info a {
+    color: var(--white);
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.footer-nav a img,
+.footer-info a img {
+    padding-right: 6px;
+}
+.footer-nav a:hover,
+.footer-info a:hover .footer img{
+    padding-right: 10px;
+}
+.footer-info {
+    display: flex;
+    flex-direction: column;
+}
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 40px;
+    align-items: center;
+    margin: 10px 40px;
+}
+.footer-end p {
+    color: var(--white);
+    font-size: 12px;
+    font-family: "Raleway", sans-serif;
+}
+.footer-end ul a {
+    color: var(--white);
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.footer-end ul a:hover {
+    border-bottom: 1px solid var(--lightest-grey);
+}
+@media screen and (max-width: 1024px) {
+    .footer {
+        height: 980px;
+    }
+    .footer-section {
+        display: block;
+    }
+    .footer-about {
+        width: 100%;
+        justify-content: center;
+        border: none;
+    }
+    .footer-about p {
+        width: 200px;
+    }
+    .footer-links {
+        width: 100%;
+        border: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer-links-ul {
+        display: block;
+    }
+    .footer-end {
+        display: block;
+    }
+    .footer {
+        height: 1300px;
+        overflow-x: hidden;
+    }
+}

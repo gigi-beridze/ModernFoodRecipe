@@ -1,0 +1,26 @@
+[
+    { 
+        "description": "Claritas est etiam processus dynamicus, qui sequitur nembuz", 
+        "type": "cooking tips",
+        "date": "Mar 3, 2019",
+        "image": "/images/blog-1.png"
+    },
+    { 
+        "description": "Anteposuerit litterarum formas humanitatis per seacula", 
+        "type": "how to",
+        "date": "Mar 3, 2019",
+        "image": "/images/blog-2.png"
+    },
+    { 
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit", 
+        "type": "cooking tips",
+        "date": "Mar 3, 2019",
+        "image": "/images/blog-3.png"
+    },
+    { 
+        "description": "Mirum est notare quam littera gothica", 
+        "type": "cooking tips",
+        "date": "Mar 3, 2019",
+        "image": "/images/blog-4.png"
+    }
+]
