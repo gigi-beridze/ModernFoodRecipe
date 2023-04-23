@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Roboto&family=Yellowtail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&family=Roboto&display=swap');
 @import url("//cdn.web-fonts.ge/fonts/alk-rounded-nusx-med/css/alk-rounded-nusx-med.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 :root {
   --white: #fff;
   --light-grey: #676867;
   --more-light-grey: #999;
   --lightest-grey: #bdbdc0;
+  --login-grey: #bfbfbf;
   --light-red: #e33d26;
   --medium-red: #c92f1a;
   --dark-red: #be2d18;
@@ -22,7 +25,6 @@
 }
 body {
   background-color: var(--white);
-  height: 2000px;
   overflow-x: hidden;
 }
 a, a:visited, a:hover{
@@ -37,4 +39,14 @@ li {
 .container {
   max-width: 1540px;
   margin: 0 auto;
+}
+.not-found {
+  display: flex;
+  height: 46vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found * {
+  padding: 10px;
 }

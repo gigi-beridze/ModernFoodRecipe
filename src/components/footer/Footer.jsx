@@ -25,9 +25,9 @@ const Footer = () => {
                                 <img src="/images/arrow.svg" alt="" />
                                 Blog
                             </NavLink>
-                            <NavLink to="/">
+                            <NavLink to="/contact">
                                 <img src="/images/arrow.svg" alt="" />
-                                Contact
+                                Contact Us
                             </NavLink>
                             <NavLink to="/">
                                 <img src="/images/arrow.svg" alt="" />
@@ -57,7 +57,7 @@ const Footer = () => {
                     <NavLink to="/">Home</NavLink>
                     <NavLink to="/">Recipes</NavLink>
                     <NavLink to="/">Blog</NavLink>
-                    <NavLink to="/">Contact</NavLink>
+                    <NavLink to="/contact">Contact Us</NavLink>
                     <NavLink to="/">About Us</NavLink>
                 </ul>
             </div>

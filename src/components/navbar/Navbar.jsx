@@ -23,10 +23,12 @@ const Navbar = () => {
     }, [])
     return (
         <>
-        <div className="aaa">
+        <div className="navbar-section">
             <div className={active ? "navbar activee" : "navbar"}>
                 <div className='logo'>
+                <NavLink to="/">
                     <img src={Logo} alt="logo" />
+                    </NavLink>
                 </div>
             <div className='menu'>
                 <NavLink to="/" >Home</NavLink>
@@ -34,11 +36,15 @@ const Navbar = () => {
                 <Dropdown name="Events" />
                 <Dropdown name="Blog" />
                 <Dropdown name="Pages" />
-                <NavLink to="/" >About Us</NavLink>
+                <NavLink to="/about" >About Us</NavLink>
             </div>
             <div className="login">
-                <Button name="Register" />
-                <Button name="Login" />
+                <NavLink to="/auth/register">
+                    <Button name="Register" />
+                </NavLink>
+                <NavLink to="/auth/login">
+                    <Button name="Login" />
+                </NavLink>
             </div>   
             <button className='show-mobile-menu-button' onClick={toggleMobileMenu}>
                 &#8801;

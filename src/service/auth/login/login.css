@@ -1,0 +1,190 @@
+.login-auth {
+    margin-top: 100px;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--light-red);
+}
+::selection{
+  color: var(--white);
+  background: var(--medium-red);
+}
+.wrapper{
+  width: 760px;
+  height: 505px;
+  padding: 40px 30px 50px 30px;
+  background: var(--white);
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
+  display: flex;
+}
+.wrapper header{
+  font-size: 35px;
+  font-weight: 600;
+}
+.wrapper form{
+  margin: 40px 0;
+}
+form .field{
+  width: 100%;
+  margin-bottom: 20px;
+}
+form .field.shake{
+  animation: shake 0.3s ease-in-out;
+}
+@keyframes shake {
+  0%, 100%{
+    margin-left: 0px;
+  }
+  20%, 80%{
+    margin-left: -12px;
+  }
+  40%, 60%{
+    margin-left: 12px;
+  }
+}
+form .field .input-area{
+  height: 50px;
+  width: 100%;
+  position: relative;
+}
+form input{
+  width: 100%;
+  height: 100%;
+  outline: none;
+  padding: 0 45px;
+  font-size: 18px;
+  background: none;
+  caret-color: var(--light-red);
+  border-radius: 5px;
+  border: 1px solid var(--login-grey);
+  border-bottom-width: 2px;
+  transition: all 0.2s ease;
+}
+form .field input:focus,
+form .field.valid input{
+  border-color: var(--dark-red);
+}
+form .field.shake input,
+form .field.error input{
+  border-color: var(--dark-red);
+}
+.field .input-area img{
+  position: absolute;
+  top: 50%;
+  font-size: 18px;
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+.error img {
+  width: 20px;
+}
+.input-area .icon{
+  left: 15px;
+  color: var(--login-grey);
+  transition: color 0.2s ease;
+  width: 20px;
+}
+.input-area .error-icon{
+  right: 5px;
+  color: var(--dark-red);
+  transform: translateY(-80%) !important;
+}
+form input:focus ~ .icon,
+form .field.valid .icon{
+  color: var(--light-red);
+}
+form .field.shake input:focus ~ .icon,
+form .field.error input:focus ~ .icon{
+  color: var(--login-grey);
+}
+form input::placeholder{
+  color: var(--login-grey);
+  font-size: 17px;
+}
+form .field .error-txt{
+  color: var(--dark-red);
+  text-align: left;
+  margin-top: 5px;
+}
+form .field .error{
+  display: none;
+}
+form .field.shake .error,
+form .field.error .error{
+  display: block;
+}
+form .pass-txt{
+  text-align: left;
+  margin-top: -10px;
+}
+.left {
+  width: 100%;
+}
+.show-btn {
+  display: block !important;
+}
+.wrapper a{
+  color: var(--dark-red);
+  text-decoration: none;
+}
+.wrapper a:hover{
+  text-decoration: underline;
+}
+form input[type="submit"]{
+  height: 50px;
+  margin-top: 30px;
+  color: var(--white);
+  padding: 0;
+  border: none;
+  background: var(--dark-red);
+  cursor: pointer;
+  border-bottom: 2px solid rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+form input[type="submit"]:hover{
+  background: var(--light-red);
+}
+.auth-bg {
+  height: 400px;
+  width: 380px;
+  padding-left: 26px;
+  display: inline-flex;
+  position: relative;
+}
+.auth-right-text {
+  position: absolute;
+  z-index: 1;
+  color: var(--white);
+  padding: 20px 36px;
+  word-wrap: wrap;
+  max-width: 400px;
+}
+
+@media screen and (max-width: 1028px) {
+    .login-auth {
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+  }
+  .auth-bg {
+    width: 300px;
+    height: 300px;
+    padding: 0;
+  }
+  .right {
+    padding-top: 20px;
+  }
+  .auth {
+    margin-bottom: 100px;
+  }
+}

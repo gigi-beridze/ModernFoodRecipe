@@ -1,0 +1,149 @@
+.header{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e33d26; 
+    margin-bottom: 20px;
+
+    --size: 8px;
+    --p: 8px;
+    --R: 16px;
+
+  -webkit-mask:
+    radial-gradient(var(--R) at 50% calc(100% - (var(--size) + var(--p))),blue 99%,#0000 101%) calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
+    radial-gradient(var(--R) at 50% calc(100% + var(--p)),#0000 99%,red 101%) 50% calc(100% - var(--size))/calc(4*var(--size)) 100% repeat-x;
+}
+.header h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 10px;
+    font-family: "ALK Rounded Nusx Med", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+  
+
+.our-history,
+.our-goal {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: -40px;
+}
+.our-history h3,
+.our-goal h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.our-history p,
+.our-goal p{
+      line-height: 25px;
+      font-size: 20px;
+  }
+
+
+.team-info{
+    padding: 0px 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.member-box{
+    padding: 50px 0px;
+    width: 350px;
+    box-shadow: rgba(228, 95, 72, 0.562) 0px 7px 29px 0px;
+    margin-top: 40px;
+    border: 5px solid white;
+}
+.member-box:hover{
+    border: solid 5px rgb(221, 171, 180);
+    box-sizing: border-box;
+}
+.mem-photo{
+    margin:auto;
+    border-radius: 50%;
+    width: 150px;
+}
+.mem-photo img{
+    border-radius: 50%;
+    width: 100%;
+}
+
+.member-box h4{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px 0px 10px 0px;
+}
+
+.member-box .role{
+    font-size: 15px;
+    color:rgb(106, 109, 109);
+    margin: 5px 0px 30px 0px;
+}
+
+.member-box .exp{
+    padding: 0px 30px;
+    text-align: justify;
+    font-size: 20px;
+}
+.memb-icon{
+    margin-top:20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.github,
+.facebook{
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px 5px;
+}
+.github:hover,
+.facebook:hover{
+    background-color: rgb(79, 79, 219);
+}
+
+.backround-follow{
+    background-color: rgb(131, 86, 86);
+    width: 100%;
+}
+.backround-follow img{
+    width: 100%;
+
+}
+.about {
+    margin-top: 100px;
+}
+
+/* responsive */
+@media only screen and (max-width: 730px) {
+    .our-history,
+    .our-goal {
+    display: block;
+    }
+    .our-goal{
+        margin-top: 20px;
+    }
+    .lott{
+        height: 300px;
+    }
+    .lott-2{
+        display: none;
+    }
+}

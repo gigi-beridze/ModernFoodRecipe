@@ -1,0 +1,160 @@
+.contact-info{
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.contact-info-block{
+    max-width: 150px;
+    height: 150px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        text-align: center;
+        
+    margin-bottom: 100px;
+}
+.fa-map-marker-alt, .fa-phone,
+.fa-paper-plane, .fa-globe-africa{
+    font-size: 30px;
+}
+.rounded{
+    margin-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #e33d26; 
+}
+.contact-info-block p{
+    font-size: 20px;
+}
+
+
+.contact-us-form{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    border: solid 2px rgb(235, 231, 231);
+    box-shadow: 2px 5px 100px 2px rgb(219, 167, 167);
+    flex-wrap: wrap;
+}
+.ganivi-location{
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+.send-msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.text-header h3{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(61, 6, 6);
+}
+.send-form{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.form-group{
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+.form-group input,
+.form-group textarea{
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(70, 69, 69, 0.19)
+}
+button{
+    width: 100%;
+    height: 50px;
+    color:white;
+    font-size: 25px;
+    background-color: #e33d26; 
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 5px;
+}
+button:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}
+textarea{
+    resize:vertical;
+}
+
+
+
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: rgb(61, 61, 61); /* Black background color */
+    color: rgb(86, 175, 27); /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    bottom: 30px; /* 30px from the bottom */
+  }
+  
+  /* Show the snackbar when clicking on a button (class added with JavaScript) */
+  #snackbar.show {
+    visibility: visible; /* Show the snackbar */
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+    However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  /* Animations to fade the snackbar in and out */
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }

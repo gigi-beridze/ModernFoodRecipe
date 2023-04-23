@@ -46,9 +46,6 @@
     display: flex;
     justify-content:space-evenly;
 }
-.footer-links-ul a:hover img {
-    padding-left: 4px;
-}
 .footer-nav{
     display: flex;
     flex-direction: column;
@@ -66,10 +63,6 @@
 .footer-nav a img,
 .footer-info a img {
     padding-right: 6px;
-}
-.footer-nav a:hover,
-.footer-info a:hover .footer img{
-    padding-right: 10px;
 }
 .footer-info {
     display: flex;
