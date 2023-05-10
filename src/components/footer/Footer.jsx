@@ -52,7 +52,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="footer-end">
-                <p>© 2023 Taplak Web Template. Made with  &hearts; by Gigi Beridze </p>
+                <p>© 2023 Taplak Web Template. Made with  &hearts; by Tasty Bites </p>
                 <ul>
                     <NavLink to="/">Home</NavLink>
                     <NavLink to="/">Recipes</NavLink>

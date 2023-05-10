@@ -24,7 +24,7 @@
   border-radius: 5px;
   z-index: 1;
 }
-.options-list li {
+.custom-select .options-list a {
   padding: 4px 24px;
   color: var(--white);
   font-weight: bolder;
@@ -40,7 +40,10 @@
   display: flex;
   align-items: center;
 }
-.options-list li:hover {
+.custom-select .options-list a:hover {
+  color: var(--white);
+}
+.custom-select .options-list a:hover {
   background-color: var(--light-red);
 }
 
@@ -49,6 +52,6 @@
     left: 10px;
   }
   .custom-select {
-    margin-bottom: 30px;
+    margin: 14px 0px;
   }
 }

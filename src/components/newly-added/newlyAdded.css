@@ -3,7 +3,7 @@
 }
 .newlyAdded-item {
     display: flex;
-   justify-content: center;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -12,6 +12,7 @@
     margin-left: 30px;
     background-color: var(--description-color);
     max-width: 275px;
+    height: 440px;
 }
 .newlyAdded-description {
     display: flex;
@@ -31,6 +32,7 @@
 .description-maker {
     color: var(--more-light-grey);
     font-size: 12px;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
 }
 .description-time {
     font-size: 10px;
@@ -114,4 +116,25 @@
     bottom: 0;
     opacity: 1;
 }
-  
+.description-country {
+    font-size: 12px;
+    color: #ccc;
+    margin-top: 6px;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+}
+.description-difficulty {
+    color: var(--more-light-grey);
+    font-size: 12px;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    margin-top: 4px;
+}
+.description-difficulty-type {
+    color: var(--white);
+    margin-left: 4px;
+}
+
+@media screen and (max-width: 768px) {
+    .newlyAdded-items {
+        margin-left: 0px;
+    }
+}

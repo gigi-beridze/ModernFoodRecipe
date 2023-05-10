@@ -1,0 +1,200 @@
+[
+    { 
+        "title": "Salad Nicoise",
+        "type": "დესერტი",
+        "time": 9, 
+        "country": "საქართველო",
+        "timeType": "Minutes",
+        "difficulty": "hard",
+        "image": "/images/newly-added1.png",
+        "link": "/"
+    },  { 
+        "title": "Grilled Beef Steak",
+        "type": "დესერტი",
+        "time": 26, 
+        "country": "საქართველო",
+        "timeType": "Minutes",
+        "difficulty": "hard",
+        "image": "/images/newly-added2.png",
+        "link": "/"
+    },
+    { 
+        "title": "Tiger Prawns Roasted",
+        "type": "დესერტი",
+        "time": 9, 
+        "country": "საქართველო",
+        "timeType": "Minutes",
+        "difficulty": "hard",
+        "image": "/images/newly-added3.png",
+        "link": "/"
+    },
+    { 
+        "title": "Korean Soup",
+        "type": "By Lina Sukowati",
+        "time": 45,
+        "country": "საქართველო",
+        "timeType": "Minutes",
+        "difficulty": "hard",
+        "image": "/images/newly-added4.png",
+        "link": "/"
+    },
+    { 
+        "title": "Roast Aubergine",
+        "type": "By Lina Sukowati",
+        "time": 1,
+        "country": "საქართველო",
+        "timeType": "Hour",
+        "difficulty": "hard",
+        "image": "/images/newly-added5.png",
+        "link": "/"
+    },
+    { 
+        "title": "Indian Mixed Rice",
+        "type": "By Lina Sukowati",
+        "time": 26,
+        "country": "საქართველო",
+        "timeType": "Minutes",
+        "difficulty": "hard",
+        "image": "/images/newly-added6.png",
+        "link": "/"
+    },
+    { 
+        "title": "Black Red Cake",
+        "type": "By Nurjanah",
+        "time": 27,
+        "country": "საქართველო",
+        "timeType": "Minutes", 
+        "difficulty": "hard",
+        "image": "/images/newly-added7.png",
+        "link": "/"
+    },
+    { 
+        "title": "Fresh Spaghetti with Tuna",
+        "type": "By Lina Sukowati",
+        "time": 45,
+        "country": "საქართველო",
+        "timeType": "Minutes", 
+        "difficulty": "hard",
+        "image": "/images/newly-added8.png",
+        "link": "/"
+    },
+    { 
+        "title": "Steak with fries",
+        "type": "By Lina Sukowati",
+        "time": 1.5,
+        "country": "საქართველო",
+        "timeType": "Hour", 
+        "difficulty": "hard",
+        "image": "/images/newly-added2.png",
+        "link": "/"
+    },
+    { 
+        "title": "Paska",
+        "type": "By Lina Sukowati",
+        "time": 2,
+        "country": "საქართველო",
+        "timeType": "Hour", 
+        "difficulty": "hard",
+        "image": "/images/newly-added7.png",
+        "link": "/"
+    },  { 
+        "title": "Grilled Beef Steaks",
+        "type": "By Eka Nurwasilah",
+        "time": 26,
+        "country": "საქართველო", 
+        "timeType": "Minutes",
+        "difficulty": "hard",
+        "image": "/images/newly-added2.png",
+        "link": "/"
+    },
+    { 
+        "title": "Tiger Prawns Roasteds",
+        "type": "By Lina Sukowati",
+        "time": 9, 
+        "country": "საქართველო",
+        "timeType": "Minutes",
+        "difficulty": "hard",
+        "image": "/images/newly-added3.png",
+        "link": "/"
+    },
+    { 
+        "title": "Korean Soups",
+        "type": "By Lina Sukowati",
+        "time": 45, 
+        "country": "საქართველო",
+        "timeType": "Minutes",
+        "difficulty": "hard",
+        "image": "/images/newly-added4.png",
+        "link": "/"
+    },
+    { 
+        "title": "Roast Aubergines",
+        "type": "By Lina Sukowati",
+        "time": 1,
+        "country": "საქართველო",
+        "timeType": "Hour",
+        "difficulty": "hard",
+        "image": "/images/newly-added5.png",
+        "link": "/"
+    },
+    { 
+        "title": "Indian Mixed Rices",
+        "type": "By Lina Sukowati",
+        "time": 26, 
+        "country": "საქართველო",
+        "timeType": "Minutes",
+        "difficulty": "hard",
+        "image": "/images/newly-added6.png",
+        "link": "/"
+    },
+    { 
+        "title": "Black Red Cakes",
+        "type": "By Nurjanah",
+        "time": 27,
+        "country": "საქართველო",
+        "timeType": "Minutes", 
+        "difficulty": "hard",
+        "image": "/images/newly-added7.png",
+        "link": "/"
+    },
+    { 
+        "title": "Fresh Spaghettis with Tuna",
+        "type": "By Lina Sukowati",
+        "time": 45,
+        "country": "საქართველო",
+        "timeType": "Minutes", 
+        "difficulty": "hard",
+        "image": "/images/newly-added8.png",
+        "link": "/"
+    },
+    { 
+        "title": "Steak with friess",
+        "type": "By Lina Sukowati",
+        "time": 1.5,
+        "country": "საქართველო",
+        "timeType": "Hour", 
+        "difficulty": "hard",
+        "image": "/images/newly-added2.png",
+        "link": "/"
+    },
+    { 
+        "title": "Paskas",
+        "type": "By Lina Sukowati",
+        "time": 2,
+        "country": "საქართველო",
+        "timeType": "Hour", 
+        "difficulty": "hard",
+        "image": "/images/newly-added7.png",
+        "link": "/"
+    },
+    { 
+        "title": "Steak swith fries",
+        "type": "By Lina Sukowati",
+        "time": 1.5,
+        "country": "საქართველო",
+        "timeType": "Hour", 
+        "difficulty": "hard",
+        "image": "/images/newly-added2.png",
+        "link": "/"
+    }
+]

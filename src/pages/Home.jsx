@@ -1,5 +1,5 @@
 import Slider from "../components/hero/Slider"
-import NewlyAdded from "../components/newlyAdded/NewlyAdded"
+import NewlyAdded from "../components/newly-added/NewlyAdded"
 import Teams from "../components/team/Teams"
 import TopDishes from "../components/top-dishes/TopDishes"
 import Course from "../components/course-section/Course"

@@ -1,7 +1,8 @@
 .footer {
-    width: 100vw;
-    height: 530px;
+    width: 100%;
+    height: 100%;
     background-image: url("/images/footer-bg.png");
+    overflow-x: hidden;
 }
 .footer-section {
     display: flex;
@@ -92,9 +93,6 @@
     border-bottom: 1px solid var(--lightest-grey);
 }
 @media screen and (max-width: 1024px) {
-    .footer {
-        height: 980px;
-    }
     .footer-section {
         display: block;
     }
@@ -118,8 +116,14 @@
     .footer-end {
         display: block;
     }
-    .footer {
-        height: 1300px;
-        overflow-x: hidden;
+    .footer-links-ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .footer-links-ul a {
+        width: 240px;
     }
 }

@@ -6,17 +6,17 @@ const MobileMenu = () => {
     return (
       <div className={'mobile-menu login'}>
         <NavLink to="/" >Home</NavLink>
-        <Dropdown name="Recipes" />
+        <NavLink to="/recipes" >Recipes</NavLink>
         <Dropdown name="Events" />
         <Dropdown name="Blog" />
         <Dropdown name="Pages" />
-        <NavLink to="/" >About Us</NavLink>
-        <div>
+        <NavLink to="/about" >About Us</NavLink>
+        <NavLink to="/auth/register">
           <Button name="Register" />
-        </div>
-        <div>
+        </NavLink>
+        <NavLink to="/auth/login">
           <Button name="Login" />
-        </div>
+        </NavLink>
       </div>
     );
   };

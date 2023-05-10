@@ -1,0 +1,71 @@
+.page-blogs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0px 14px;
+}
+.page-blog-header h3{
+    color: var(--description-color);
+    letter-spacing: 1px;
+    font-size: 24px;
+    border-bottom: 2px solid var(--description-color);
+    padding: 0px 0px 20px 10px;
+    width: 100%;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+}
+.page-right-blog {
+    border-left: 1px dotted #ddd;
+    padding-left: 24px;
+    width: 30%;
+}
+.page-right-search {
+    padding: 20px 0;
+    position: relative;
+}
+.page-right-search input {
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    padding: 15px 10px 12px;
+    font-size: 14px;
+    width: 100%;
+}
+.page-right-search button {
+    position: absolute;
+    top: 25px;
+    right: 4px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 12px;
+    background: var(--description-color);
+    color: var(--white);
+    border: 1px solid transparent;
+    padding: 8px 25px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1028px) {
+    .section-header {
+        margin-top: 0px;
+    }
+    .page-blog-header h3 {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 868px) {
+    .page-blogs {
+        display: block;
+    }
+    .page-intersting-blog {
+        display: block;
+        justify-content: flex-start;
+    }
+    .page-blog-header {
+        text-align: center;
+    }
+    .page-right-blog {
+        width: 100%;
+        padding-left: 0px;
+    }
+}

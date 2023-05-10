@@ -2,6 +2,7 @@ import NewlyAddedData from '../../data/newly-added.json'
 import Clock from '/images/clock.svg'
 import Bookmark from '/images/bookmark.svg'
 import './newlyAdded.css'
+import { NavLink } from 'react-router-dom'
 
 const NewlyAdded = () => {
     return (
@@ -18,7 +19,9 @@ const NewlyAdded = () => {
                                 <button className="bookmark-icon">
                                     <img src={Bookmark} alt="icon" />
                                 </button>
-                                <button className="recipe-button">view recipe</button>
+                                <NavLink to={`/recipe/${item.title}`}>
+                                    <button className="recipe-button">view recipe</button>
+                                </NavLink>
                             </div>
                             <div className="newlyAdded-description">
                                 <span className="description-title">{item.title}</span>

@@ -1,11 +1,17 @@
 [
     { 
-        "label": "Georgian Cuisine", 
+        "label": "Blog",
+        "href": "/blog", 
         "value": "option1" 
     },
     { 
-        "label": "Foreign Cuisine", 
+        "label": "Contact US", 
+        "href": "/contact",
         "value": "option2" 
+    },
+    { 
+        "label": "Recipes", 
+        "href": "/recipes",
+        "value": "option3" 
     }
-
 ]

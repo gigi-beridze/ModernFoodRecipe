@@ -1,0 +1,115 @@
+.intersting-blog-item {
+    display: flex;
+    border-bottom: 1px dotted #ddd;
+    margin: 24px 0px;
+    padding-bottom: 20px;
+}
+.interesting-blog-cooking-tips {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+.cooking-tips {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    height: 40px;
+}
+.intersting-blog-image img {
+    width: 280px;
+}
+.interesting-blog-month,
+.interesting-blog-year {
+    color: #363636;
+    font-family: georgia, serif;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.8;
+    text-transform: uppercase;
+}
+.interesting-blog-day {
+    font-size: 32px;
+    line-height: 0.7em;
+}
+.interesting-blog-day:hover,
+.interesting-blog-month:hover,
+.interesting-blog-year:hover {
+    color: #e33d26;
+    cursor: pointer;
+}
+.interesting-blog-days {
+    display: flex;
+    flex-direction: column;
+}
+.interesting-blog-description {
+    max-width: 340px;
+    margin-left: 40px;
+    line-height: 26px;
+}
+.interesting-blog-description p {
+    color: #232323;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 1.2;
+    cursor: pointer;
+}
+.interesting-blog-description p:hover {
+    color: var(--light-red);
+}
+.interesting-blog-description a {
+    color: #e33d26;
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    font-style: italic;
+}
+.interesting-blog-description a:hover {
+    border-bottom: 1px solid red;
+}
+@media screen and (max-width: 1200px) {
+    .intersting-blog-image img {
+        width: 200px;
+    }
+    .interesting-blog-description {
+        margin-left: 20px;
+        width: 200px;
+    }
+    .interesting-blog-description p {
+        font-size: 20px;
+    }
+    .cooking-tips {
+        height: 20px;
+    }
+    .interesting-blog-cooking-tips {
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .page-interesting-blog {
+        justify-content: flex-start ;
+    }
+    .intersting-blog-item {
+        display: block;
+    }
+    .intersting-blog-image img {
+        width: 100%;
+    }
+    .interesting-blog-description {
+        margin-left: 0px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .interesting-blog-description p {
+        font-size: 30px;
+    }
+    .cooking-tips {
+        font-size: 16px;
+    }
+    .interesting-blog-days {
+        font-size: 30px;
+    }
+}

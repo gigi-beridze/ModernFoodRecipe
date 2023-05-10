@@ -7,6 +7,9 @@ import Login from "./service/auth/login/Login"
 import Register from "./service/auth/register/Register"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
+import Blog from "./pages/Blog"
+import Recipes from "./pages/Recipes"
+import TheRecipe from "./pages/TheRecipe"
 
 const App = () => {
   return (
@@ -19,6 +22,9 @@ const App = () => {
         <Route path="/auth/login" element={<Login />} />
         <Route path="/auth/register" element={<Register />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/recipes" element={<Recipes />} />
+        <Route path="/recipe/:food" element={<TheRecipe />} />
       </Routes>
       <Footer />
     </div>

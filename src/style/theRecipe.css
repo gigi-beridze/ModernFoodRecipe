@@ -1,0 +1,41 @@
+.the-recipe-item {
+    margin-top: 60px;
+}
+.the-recipe-smallinfo span {
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.7;
+    font-family: "Raleway", sans-serif;
+    color: #212529;
+    text-transform: uppercase;
+}
+.the-recipe-smallinfo-red {
+    color: var(--light-red) !important;
+    margin-left: 4px;
+}
+.the-recipe-posted-author {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.the-recipe-posted-author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-right: 14px;
+}
+.the-recipe-posted-by,
+.the-recipe-posted-author-name {
+    font-size: 12px;
+    font-style: italic;
+    font-family: "Raleway", sans-serif;
+    color: #212529;
+}
+.the-recipe-posted-author-name {
+    color: var(--light-red) !important;
+    margin-left: 4px;
+    cursor: pointer;
+}   

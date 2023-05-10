@@ -1,0 +1,58 @@
+.follow-instagram { 
+    position: relative;
+    margin-top: 60px;
+}
+.follow-instagram-button {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+.follow-instagram-button button{
+    color: var(--white);
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: rgba(227, 61, 38, 0.9);
+    padding: 17px 40px;
+    line-height: 1.8;
+    font-family: "Raleway", sans-serif;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.follow-instagram-button button span {
+    padding-left: 10px;
+}
+.follow-instagram-button button:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.follow-instagram ul {
+    display: flex;
+    width: auto;
+}
+.follow-instagram ul li img{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+@media screen and (min-width: 992px){
+    .follow-instagram ul li {
+        width: 16.66%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .follow-instagram-button button {
+        max-width: 300px;
+        height: 40px;
+    }
+}
+.follow-instagram ul li {
+    width: 33.3%;
+}

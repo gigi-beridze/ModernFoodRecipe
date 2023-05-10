@@ -28,7 +28,7 @@ const Dropdown = ({name}) => {
   return (
     <div className="custom-select" ref={ref}>
       <div className="selected" onClick={handleSelectClick}>
-        <NavLink to="/">
+        <NavLink>
           {selectedOption ? selectedOption.label : name}
         </NavLink>
         <span className={`arrow ${isOpen ? 'up' : 'down'}`} />
@@ -36,9 +36,9 @@ const Dropdown = ({name}) => {
       {isOpen && (
         <ul className="options-list">
           {DropdownItems.map((option) => (
-           <li key={option.value} onClick={() => handleOptionClick(option)}>
+           <NavLink to={option.href} key={option.value} onClick={() => handleOptionClick(option)}>
               {option.label}
-            </li>
+            </NavLink>
           ))}
         </ul>
       )}

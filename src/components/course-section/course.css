@@ -14,7 +14,7 @@
 }
 .course .title span {
     color: var(--white);
-    font-family: "ALK Rounded Nusx Med", sans-serif;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
 }
 .course-info {
     max-width: 730px;
@@ -29,7 +29,7 @@
 }
 .course-info span {
     padding-top: 16px;
-    font-family: "ALK Rounded Nusx Med", sans-serif;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
 }
 .course-info img {
     padding-right: 6px;

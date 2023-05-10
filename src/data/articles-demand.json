@@ -1,0 +1,22 @@
+[
+    { 
+        "description": "Eodem Modo Typi, Qui Nunc Nobis Videntur Parum Clari", 
+        "type": "Uncategorized",
+        "image": "./images/thumb-post-01.png"
+    },
+    { 
+        "description": "Nullam Volutpat at Lectus ut Mollis", 
+        "type": "Cooking Tips",
+        "image": "/images/thumb-post-02.png"
+    },
+    { 
+        "description": "Suspendisse Tempor Feugiat Ultricies", 
+        "type": "Kitchen",
+        "image": "/images/thumb-post-03.png"
+    },
+    { 
+        "description": "Curabitur Lobortis Sapien Sit Amet", 
+        "type": "Vegetable",
+        "image": "/images/thumb-post-04.png"
+    }
+]

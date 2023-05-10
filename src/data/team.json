@@ -1,27 +1,42 @@
 [
     { 
-        "name": "roberta farina", 
-        "role": "Executive Editor",
-        "image": "/images/person1.png" 
+        "name": "გიგი ბერიძე", 
+        "role": "Frontend Developer",
+        "image": "/images/gigi.jpg",
+        "comment": "ამ პროექტზე მუშაობა ძალიან საინტერესო და დიდი გამოცდილების მომცემი იყო.",
+        "github": "github.com",
+        "facebook": "facebook.com"
     },
     { 
-        "name": "nia kurniasari", 
-        "role": "Internet Marketer",
-        "image": "/images/person2.png" 
+        "name": "ლაშა შეროზია", 
+        "role": "Backend Developer",
+        "image": "/images/lasha.jpg",
+        "comment": "ამ პროექტზე მუშაობა ძალიან საინტერესო და დიდი გამოცდილების მომცემი იყო.",
+        "github": "github.com",
+        "facebook": "facebook.com"
     },
     { 
-        "name": "rina alexanderia", 
+        "name": "მარიამ ანთიძე", 
         "role": "Publisher",
-        "image": "/images/person3.png" 
+        "image": "/images/mariami.jpg",
+        "comment": "ამ პროექტზე მუშაობა ძალიან საინტერესო და დიდი გამოცდილების მომცემი იყო.",
+        "github": "github.com",
+        "facebook": "facebook.com"
     },
     { 
-        "name": "siti julaiha", 
+        "name": "ლანა დანდროშვილი", 
         "role": "System Administrator",
-        "image": "/images/person4.png" 
+        "image": "/images/lana.jpg",
+        "comment": "ამ პროექტზე მუშაობა ძალიან საინტერესო და დიდი გამოცდილების მომცემი იყო.",
+        "github": "github.com",
+        "facebook": "facebook.com" 
     },
     { 
-        "name": "laila delova", 
+        "name": "ნინო დაუთაშვილი", 
         "role": "Web Developerp",
-        "image": "/images/person5.png" 
+        "image": "/images/nino.jpg",
+        "comment": "ამ პროექტზე მუშაობა ძალიან საინტერესო და დიდი გამოცდილების მომცემი იყო.",
+        "github": "github.com",
+        "facebook": "facebook.com" 
     }
 ]
