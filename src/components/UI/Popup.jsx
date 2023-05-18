@@ -8,9 +8,12 @@ const Popup = props => {
       <div className="box">
         <span className="close-icon" onClick={props.handleClose}>x</span>
         {props.content}
+          {!props.isLogin &&
         <NavLink to="/auth/login">
           <button className="popup-join-btn">შესვლა</button>
         </NavLink>
+
+          }
         <button onClick={props.handleClose} className="popup-exit-btn">დახურვა</button>
       </div>
     </div>

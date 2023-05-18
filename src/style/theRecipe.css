@@ -38,4 +38,118 @@
     color: var(--light-red) !important;
     margin-left: 4px;
     cursor: pointer;
-}   
+}
+.the-recipe-left {
+    display: flex;
+    align-items: center;
+}
+.the-recipe-right {
+    display: flex;
+    align-items: center;
+}
+.the-recipe-right span {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #212529;
+    text-transform: uppercase;
+    margin-right: 8px;
+}
+.the-recipe-main-about {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.the-recipe-main-image img {
+    width: 600px;
+}
+.the-recipe-main-ingredients {
+    max-width: 900px;
+    margin: 0 20px;
+}
+.the-recipe-main-ingredients h3 {
+    margin-bottom: 30px;
+}
+.the-recipe-main-ingredients h3,
+.the-recipe-main-ingredients span {
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    font-size: 140%;
+}
+.css-dqr9h-MuiRating-label span{
+    color: #f8c231;
+    font-size: 20px;
+}
+.the-recipe-making-rule-text {
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #333;
+    margin-top: 50px;
+    width: 100%;
+}
+.the-recipe-making-rule-text h3 {
+    font-size: 24px;
+    margin-top: 40px;
+}
+.the-recipe-ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.the-recipe-ol li {
+    width: 50%;
+}
+.the-recipe-ol li {
+    list-style: decimal-leading-zero;
+}
+.the-recipe-ol li { 
+    font-size: 50px;
+    margin: 20px;
+}
+.the-recipe-ol li p {
+    font-size: 14px;
+}
+.comment {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.comment button {
+    margin-bottom: 50px;
+}
+.comment textarea {
+    background-color: #f9f9f9;
+    border: 1px solid #ededed;
+    padding: 10px;
+    outline: none;
+}
+@media screen and (max-width: 1024px) {
+    .the-recipe-main-image img{
+        width: 500px;
+    }
+    .the-recipe-main-ingredients span {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .the-recipe-main-about {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .the-recipe-main-image img{
+        width: 100%;
+        height: 100%;
+    }
+    .the-recipe-main-ingredients {
+        margin: 20px 0px 0px 0px;
+    }
+    .the-recipe-smallinfo {
+        margin: 20px;
+    }
+    .the-recipe-full-item {
+        margin: 20px;
+    }
+}

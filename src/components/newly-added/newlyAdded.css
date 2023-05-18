@@ -34,6 +34,9 @@
     font-size: 12px;
     font-family: "ALK Rounded Mtav Med", sans-serif;
 }
+.section-header {
+    text-transform: uppercase;
+}
 .description-time {
     font-size: 10px;
     margin-top: 16px;

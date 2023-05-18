@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom"
 
 
 const Recipes = () => {
-    const [isLoggedIn, setIsLoggedIn] = useState(false)
+    const [isLoggedIn, setIsLoggedIn] = useState(true)
     const [isOpen, setIsOpen] = useState(false)
     const [popUpMassage, setPopUpMassage] = useState('')
 
@@ -33,6 +33,7 @@ const Recipes = () => {
                     <p>{popUpMassage}</p>
                 </>}
                 handleClose={togglePopup}
+                isLogin={isLoggedIn}
             />}
             <div className="container">
                 <div className="newlyAdded-item">
@@ -41,7 +42,8 @@ const Recipes = () => {
                             <div className="image-container">
                                 <img className="newlyAdded-image" src={item.image} alt={item.title} />
                                 <button onClick={addFavorites} className="bookmark-icon">
-                                    <img src={Bookmark} onClick={togglePopup} alt="icon" />                                    </button>
+                                    <img src={Bookmark} onClick={togglePopup} alt="icon" />
+                                </button>
                                 <NavLink to={`/recipe/${item.title}`}>
                                     <button className="recipe-button">view recipe</button>
                                 </NavLink>

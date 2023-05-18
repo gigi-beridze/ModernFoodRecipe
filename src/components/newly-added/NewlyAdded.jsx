@@ -3,21 +3,44 @@ import Clock from '/images/clock.svg'
 import Bookmark from '/images/bookmark.svg'
 import './newlyAdded.css'
 import { NavLink } from 'react-router-dom'
+import {useState} from "react";
+import Popup from "../UI/Popup.jsx";
 
 const NewlyAdded = () => {
+    const [isLoggedIn, setIsLoggedIn] = useState(false)
+    const [isOpen, setIsOpen] = useState(false)
+    const [popUpMassage, setPopUpMassage] = useState('')
+
+    const addFavorites = () => {
+        if(isLoggedIn === false) {
+            setPopUpMassage('ფავორიტებში დასამატებლად აუცილებელია შეხვიდეთ თქვენს პროფილზე!')
+        }else {
+            setPopUpMassage('კერძი წარმატებით დაემატა ფავორიტებში!')
+        }
+    }
+    const togglePopup = () => {
+        setIsOpen(!isOpen);
+    }
     return (
         <div className="newlyAdded">
             <div className="container">
                 <div className="title">
                     <span>Newly Added</span>
                 </div>
+                {isOpen && <Popup
+                    content={<>
+                        <p>{popUpMassage}</p>
+                    </>}
+                    handleClose={togglePopup}
+                    isLogin={isLoggedIn}
+                />}
                 <div className="newlyAdded-item">
                     {NewlyAddedData.map((item) => (
                         <div className="newlyAdded-items" key={item.title}>
                             <div className="image-container">
                                 <img className="newlyAdded-image" src={item.image} alt={item.title} />
-                                <button className="bookmark-icon">
-                                    <img src={Bookmark} alt="icon" />
+                                <button onClick={addFavorites}  className="bookmark-icon">
+                                    <img onClick={togglePopup} src={Bookmark} alt="icon" />
                                 </button>
                                 <NavLink to={`/recipe/${item.title}`}>
                                     <button className="recipe-button">view recipe</button>
